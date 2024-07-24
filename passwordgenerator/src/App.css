@@ -1,0 +1,46 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.settings {
+  margin-bottom: 20px;
+}
+
+.settings label {
+  display: block;
+  margin: 10px 0;
+}
+
+.settings input[type="number"] {
+  margin-left: 10px;
+  width: 50px;
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.password-display {
+  margin-top: 20px;
+}
+
+.password-display h2 {
+  word-break: break-all;
+}
